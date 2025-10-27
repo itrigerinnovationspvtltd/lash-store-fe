@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { ArrowLeft, ArrowRight, Eye, Sparkles } from 'lucide-react'
+import img1 from '../assets/bg1.png'
+import img2 from '../assets/bg2.png'
+import img3 from '../assets/img1.avif'
+import img4 from '../assets/img3.avif'
 
 const BeforeAfter = () => {
   const [activeTab, setActiveTab] = useState('before')
@@ -9,15 +13,15 @@ const BeforeAfter = () => {
     {
       id: 'natural',
       title: 'Natural Lashes',
-      before: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80',
-      after: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80',
+      before: img1 ,
+      after: img2,
       description: 'Transform your natural lashes into stunning extensions'
     },
     {
       id: 'volume',
       title: 'Volume Lashes',
-      before: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80',
-      after: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80',
+      before: img3,
+      after: img4,
       description: 'Achieve dramatic fullness with volume extensions'
     }
   ]

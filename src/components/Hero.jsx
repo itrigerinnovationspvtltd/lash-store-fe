@@ -1,6 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Sparkles, Star, Award, Eye, Heart } from 'lucide-react'
+import image1 from '../assets/bg1.png'
+import image2 from '../assets/img2.avif'
+import image3 from '../assets/img3.avif'
+
 
 const Hero = () => {
   const scrollToOffer = () => {
@@ -175,7 +179,7 @@ const Hero = () => {
             >
               <div className="relative overflow-hidden rounded-3xl shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                  src={image1}
                   alt="Beautiful eyelash extensions"
                   className="w-full h-[500px] object-cover"
                 />
@@ -190,7 +194,7 @@ const Hero = () => {
               className="absolute -top-6 -right-6 w-32 h-32 rounded-2xl overflow-hidden shadow-xl z-20"
             >
               <img
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                src={image2}
                 alt="Before and after eyelash extensions"
                 className="w-full h-full object-cover"
               />
@@ -202,7 +206,7 @@ const Hero = () => {
               className="absolute -bottom-6 -left-6 w-28 h-28 rounded-2xl overflow-hidden shadow-xl z-20"
             >
               <img
-                src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                src={image3}
                 alt="Natural eyelash extensions"
                 className="w-full h-full object-cover"
               />

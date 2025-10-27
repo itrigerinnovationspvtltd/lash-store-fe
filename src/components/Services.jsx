@@ -1,6 +1,11 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Sparkles, Zap, Crown, Star } from 'lucide-react'
+import img1 from '../assets/bg1.png'
+import img2 from '../assets/bg2.png'
+import img3 from '../assets/img3.avif'
+import img4 from '../assets/img2.avif'
+
 
 const services = [
   {
@@ -9,7 +14,7 @@ const services = [
     description: 'Light-volume look with natural-looking length in half the time of a standard volume appointment.',
     features: ['Quick application', 'Natural look', 'Lightweight', 'Perfect for beginners'],
     gradient: 'from-blue-500 to-cyan-500',
-    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
+    image: img1
   },
   {
     icon: Sparkles,
@@ -17,7 +22,7 @@ const services = [
     description: 'The perfect blend of classic and volume techniques for a fuller, textured look.',
     features: ['Best of both worlds', 'Custom density', 'Wispy effect', 'Natural elegance'],
     gradient: 'from-purple-500 to-pink-500',
-    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
+    image: img4
   },
   {
     icon: Star,
@@ -25,7 +30,7 @@ const services = [
     description: 'Multiple lightweight extensions applied to each natural lash for dramatic fullness.',
     features: ['Dramatic fullness', 'Fluffy appearance', 'Customizable volume', 'Long-lasting'],
     gradient: 'from-primary-500 to-rose-500',
-    image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
+    image: img2
   },
   {
     icon: Crown,
@@ -33,7 +38,7 @@ const services = [
     description: 'The ultimate in lash luxury with the fullest, most dramatic look possible.',
     features: ['Maximum fullness', 'Red carpet ready', 'Ultra-glamorous', 'Show-stopping'],
     gradient: 'from-gold-500 to-amber-600',
-    image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
+    image: img3
   }
 ]
 
