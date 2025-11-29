@@ -39,7 +39,7 @@ const LeadFormPopup = ({ open, setOpen }) => {
             initial={{ opacity: 0, scale: 0.85, y: 30 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.85 }}
-            className="fixed z-50 left-[1.5%] md:left-[35%] top-[15%] w-[85%] max-w-md -translate-x-1/2 -translate-y-1/2 bg-white rounded-2xl shadow-2xl p-6 text-center"
+            className="fixed z-50 left-[6%] md:left-[35%] top-[15%] w-[85%] max-w-md -translate-x-1/2 -translate-y-1/2 bg-white rounded-2xl shadow-2xl p-6 text-center"
           >
             {!submitted ? (
               <>
