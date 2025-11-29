@@ -81,7 +81,7 @@ const Navbar = ({setOpenPopup}) => {
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="md:hidden mt-6 pb-4 space-y-4"
+            className="md:hidden mt-6 pb-4 space-y-4 bg-white px-3"
           >
             <button onClick={() => scrollToSection('services')} className="block w-full text-left text-gray-700 hover:text-primary-600 transition-colors font-medium py-2">
               Services
