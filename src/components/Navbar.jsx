@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Phone, Menu, X } from 'lucide-react'
 
-const Navbar = () => {
+const Navbar = ({setOpenPopup}) => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
@@ -60,7 +60,7 @@ const Navbar = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => scrollToSection('offer')}
+              onClick={() => setOpenPopup(true)}
               className="btn-primary"
             >
               Book Now
@@ -96,7 +96,11 @@ const Navbar = () => {
               <Phone size={20} />
               (336) 422-0626
             </a>
-            <button onClick={() => scrollToSection('offer')} className="btn-primary w-full">
+            <button onClick={() =>{
+               setOpenPopup(true)
+              setIsMobileMenuOpen(false)
+        }}
+        className="btn-primary w-full">
               Book Now
             </button>
           </motion.div>

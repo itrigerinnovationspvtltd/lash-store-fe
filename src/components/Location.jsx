@@ -60,12 +60,12 @@ const Location = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Location</h3>
-                  <p className="text-gray-600">Deka Lash Winston-Salem</p>
+                  <p className="text-gray-600">Deka Lash Hill Top</p>
                   <p className="text-gray-600">1247 Creekshire Way, Suite 12</p>
-                  <p className="text-gray-600">Winston-Salem, NC 27103</p>
+                  <p className="text-gray-600">Hill Top, NC 27103</p>
                   <motion.a
                     whileHover={{ scale: 1.05 }}
-                    href="https://maps.google.com/?q=1247+Creekshire+Way+Suite+12+Winston-Salem+NC+27103"
+                    href="https://maps.google.com/?q=1247+Creekshire+Way+Suite+12+Hill-Top+NC+27103"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block mt-3 text-primary-600 font-semibold hover:text-primary-700"

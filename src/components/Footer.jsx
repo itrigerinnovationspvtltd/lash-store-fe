@@ -75,7 +75,7 @@ const Footer = () => {
             <h4 className="text-lg font-bold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
               <li>1247 Creekshire Way, Suite 12</li>
-              <li>Winston-Salem, NC 27103</li>
+              <li>Hill Top, NC 27103</li>
               <li>
                 <a href="tel:+13364220626" className="hover:text-primary-400 transition-colors">
                   (336) 422-0626

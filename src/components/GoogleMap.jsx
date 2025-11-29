@@ -31,16 +31,16 @@ const GoogleMap = () => {
           </div>
           
           {/* Business Info */}
-          <h3 className="text-2xl font-bold text-gray-800 mb-2">Deka Lash Winston-Salem</h3>
+          <h3 className="text-2xl font-bold text-gray-800 mb-2">Deka Lash Hill Top</h3>
           <p className="text-gray-600 mb-2">1247 Creekshire Way, Suite 12</p>
-          <p className="text-gray-600 mb-6">Winston-Salem, NC 27103</p>
+          <p className="text-gray-600 mb-6">Hill Top, NC 27103</p>
           
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://maps.google.com/?q=1247+Creekshire+Way+Suite+12+Winston-Salem+NC+27103" 
+              href="https://maps.google.com/?q=1247+Creekshire+Way+Suite+12+Hill-Top+NC+27103" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-primary-700 transition-colors"

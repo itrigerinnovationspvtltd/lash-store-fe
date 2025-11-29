@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { motion, useScroll, useSpring } from 'framer-motion'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -10,8 +10,17 @@ import LashLift from './components/LashLift'
 import Location from './components/Location'
 import Footer from './components/Footer'
 import { initSmoothScroll } from './utils/smoothScroll'
+import LeadFormPopup from './components/LeadFormPopup';
 
 function App() {
+
+  const [openPopup, setOpenPopup] =useState(false);
+  
+  useEffect(() => {
+    const timer = setTimeout(() => setOpenPopup(true), 10000);
+    return () => clearTimeout(timer);
+  }, []);
+
   const { scrollYProgress } = useScroll()
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -39,8 +48,9 @@ function App() {
         style={{ scaleX }}
       />
       
-      <Navbar />
+      <Navbar setOpenPopup={setOpenPopup}/>
       <Hero />
+      <LeadFormPopup open={openPopup} setOpen={setOpenPopup} />
       <SpecialOffer />
       <Reviews />
       <Services />
