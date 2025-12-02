@@ -15,7 +15,7 @@ const Hero = () => {
   }
 
   return (
-    <section className="relative pb-20 min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary-50 via-white to-primary-50">
+    <section className="relative pt-10 pb-24 min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary-50 via-white to-primary-50">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
