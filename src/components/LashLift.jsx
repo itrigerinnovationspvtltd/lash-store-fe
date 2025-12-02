@@ -154,7 +154,7 @@ const LashLift = () => {
               <motion.div
                 animate={{ y: [0, -20, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
-                className="absolute -top-6 -right-6 bg-gradient-to-br from-gold-400 to-gold-500 text-white rounded-2xl p-6 shadow-xl"
+                className="absolute -top-6 right-0 sm:-right-6 bg-gradient-to-br from-gold-400 to-gold-500 text-white rounded-2xl p-4 shadow-xl"
               >
                 <div className="text-3xl font-bold">6-8</div>
                 <div className="text-sm">Weeks</div>
@@ -163,7 +163,7 @@ const LashLift = () => {
               <motion.div
                 animate={{ y: [0, 20, 0] }}
                 transition={{ duration: 3, repeat: Infinity, delay: 1.5 }}
-                className="absolute -bottom-16 -left-6 bg-gradient-to-br from-primary-500 to-primary-600 text-white rounded-2xl p-6 shadow-xl"
+                className="absolute -bottom-16 left-0 sm:-left-6 bg-gradient-to-br from-primary-500 to-primary-600 text-white rounded-2xl p-4 shadow-xl"
               >
                 <div className="text-3xl font-bold">100%</div>
                 <div className="text-sm">Natural</div>

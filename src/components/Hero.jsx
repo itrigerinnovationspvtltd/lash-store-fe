@@ -15,7 +15,7 @@ const Hero = () => {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary-50 via-white to-primary-50">
+    <section className="relative pb-20 min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary-50 via-white to-primary-50">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
@@ -191,7 +191,7 @@ const Hero = () => {
             <motion.div
               animate={{ y: [0, -20, 0] }}
               transition={{ duration: 3, repeat: Infinity }}
-              className="absolute -top-6 -right-6 w-32 h-32 rounded-2xl overflow-hidden shadow-xl z-20"
+              className="absolute -top-6 right-0 sm:-right-6 w-32 h-32 rounded-2xl overflow-hidden shadow-xl z-20"
             >
               <img
                 src={image2}
@@ -203,7 +203,7 @@ const Hero = () => {
             <motion.div
               animate={{ y: [0, 20, 0] }}
               transition={{ duration: 3, repeat: Infinity, delay: 1.5 }}
-              className="absolute -bottom-6 -left-6 w-28 h-28 rounded-2xl overflow-hidden shadow-xl z-20"
+              className="absolute -bottom-6 left-0 sm:-left-6 w-28 h-28 rounded-2xl overflow-hidden shadow-xl z-20"
             >
               <img
                 src={image3}
