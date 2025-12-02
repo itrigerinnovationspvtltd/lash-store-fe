@@ -1,9 +1,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Sparkles, Star, Award, Eye, Heart } from 'lucide-react'
-import image1 from '../assets/bg1.png'
-import image2 from '../assets/img2.avif'
-import image3 from '../assets/img3.avif'
+import image1 from '../assets/bg1.webp'
+import image2 from '../assets/img2.webp'
+import image3 from '../assets/img3.webp'
 
 
 const Hero = () => {

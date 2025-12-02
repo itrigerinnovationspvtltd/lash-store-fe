@@ -1,29 +1,29 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Heart, Clock, Droplet, Feather } from 'lucide-react'
-import img1 from '../assets/bg4.webp'
+import img1 from '../assets/bg5.webp'
 
-const LashLift = () => {
+const PermanentMakeup = () => {
   const benefits = [
     {
       icon: Feather,
-      title: '100% Natural',
-      description: 'All-natural, semi-permanent application that enhances your own lashes'
+      title: 'Natural-Looking Results',
+      description: 'Soft, realistic, and tailored to your face shape. Our PMU techniques create definition without the “done” look—perfect for clients who want to cut their routine in half while looking polished 24/7.'
     },
     {
       icon: Clock,
-      title: '6-8 Weeks',
-      description: 'Long-lasting results that keep your lashes lifted for weeks'
+      title: 'Long-Lasting Wear',
+      description: 'Enjoy beautiful, low-maintenance results that last 1–3 years depending on the service.'
     },
     {
       icon: Heart,
-      title: 'Low Maintenance',
-      description: 'Perfect for when you take a break from extensions or prefer a natural look'
+      title: 'Customized to You',
+      description: 'Whether you prefer ultra-natural or glam, we design every brow, lip, or liner to match your features and goals.'
     },
     {
       icon: Droplet,
-      title: 'Optional Tinting',
-      description: 'Add a tint for darker, more defined lashes or keep it natural'
+      title: 'Ideal for Busy Lifestyles',
+      description: 'Perfect for professionals, moms, fitness lovers, and anyone tired of spending 20 minutes on brows every morning.'
     }
   ]
 
@@ -39,17 +39,15 @@ const LashLift = () => {
             transition={{ duration: 0.8 }}
           >
             <div className="inline-block bg-primary-100 text-primary-700 px-4 py-2 rounded-full font-semibold mb-6">
-              Natural Beauty Enhancement
+              Permanent Makeup Enhancement
             </div>
             
             <h2 className="text-4xl md:text-5xl font-display font-bold text-gray-900 mb-6">
-              Natural Beauty Lash Lift & Tinting
+              Effortless Beauty With PMU Brows, Lips & Liner
             </h2>
             
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Say goodbye to the hassle of lash curlers and hello to perfectly lifted lashes. 
-              Our lash lift boosts your natural lashes from the root, giving them a curled, 
-              lengthened appearance that lasts for weeks.
+              Wake up flawless every day with our premium permanent makeup services. From hyper-realistic brows to softly defined lips and smudge-proof liner, our artists enhance your natural features with precision, artistry, and long-lasting results.
             </p>
 
             <div className="space-y-6 mb-8">
@@ -85,7 +83,7 @@ const LashLift = () => {
               href="tel:+13364220626"
               className="btn-primary inline-block"
             >
-              Book Your Lash Lift
+              Book Your Permanent Makeup
             </motion.a>
           </motion.div>
 
@@ -101,7 +99,7 @@ const LashLift = () => {
               {/* Main Card */}
               <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
                 {/* Image */}
-                <div className="relative h-64 overflow-hidden">
+                <div className="relative h-96 overflow-hidden">
                   <img
                     src={img1}
                     alt="Natural lash lift and tinting"
@@ -124,11 +122,12 @@ const LashLift = () => {
 
                   <ul className="space-y-3">
                     {[
-                      'Taking a break from lash extensions',
-                      'First-time lash enhancement',
-                      'Natural, everyday look',
-                      'Special occasions',
-                      'Low-maintenance beauty routine'
+                      'Clients with sparse or uneven browsLooking for fuller, more defined brows without daily filling.',
+                      'Busy professionals & on-the-go lifestylesWake up ready with zero effort (coffee not included, but highly recommended).',
+                      'Active clients & gym-goersSmudge-proof, sweat-proof, cry-proof — life-proof',
+                      'Those with makeup allergies or sensitivitiesA great alternative to daily brow pencils, liners, and lipsticks.',
+                      'Anyone wanting long-lasting definitionBrows, lips, and liner that stay put for 1–3 years.',
+                      'Enhancing natural featuresSoft, realistic shading for a polished, everyday look.'
                     ].map((item, index) => (
                       <motion.li
                         key={index}
@@ -156,8 +155,8 @@ const LashLift = () => {
                 transition={{ duration: 3, repeat: Infinity }}
                 className="absolute -top-6 -right-6 bg-gradient-to-br from-gold-400 to-gold-500 text-white rounded-2xl p-6 shadow-xl"
               >
-                <div className="text-3xl font-bold">6-8</div>
-                <div className="text-sm">Weeks</div>
+                <div className="text-3xl font-bold">1-3</div>
+                <div className="text-sm">years</div>
               </motion.div>
 
               <motion.div
@@ -176,5 +175,5 @@ const LashLift = () => {
   )
 }
 
-export default LashLift
+export default PermanentMakeup ;
 

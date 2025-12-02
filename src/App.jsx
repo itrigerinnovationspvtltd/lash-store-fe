@@ -11,6 +11,7 @@ import Location from './components/Location'
 import Footer from './components/Footer'
 import { initSmoothScroll } from './utils/smoothScroll'
 import LeadFormPopup from './components/LeadFormPopup';
+import PermanentMakeup from './components/PermanentMakeup'
 
 function App() {
 
@@ -56,6 +57,7 @@ function App() {
       <Services />
       <BeforeAfter />
       <LashLift />
+      <PermanentMakeup />
       <Location />
       <Footer />
     </div>

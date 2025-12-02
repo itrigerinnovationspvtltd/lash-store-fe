@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { ArrowLeft, ArrowRight, Eye, Sparkles } from 'lucide-react'
-import img1 from '../assets/bg1.png'
-import img2 from '../assets/bg2.png'
-import img3 from '../assets/img1.avif'
-import img4 from '../assets/img3.avif'
+import img1 from '../assets/bg1.webp'
+import img2 from '../assets/bg2.webp'
+import img3 from '../assets/img1.webp'
+import img4 from '../assets/img3.webp'
 
 const BeforeAfter = () => {
   const [activeTab, setActiveTab] = useState('before')
