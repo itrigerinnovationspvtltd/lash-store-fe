@@ -39,11 +39,11 @@ const LeadFormPopup = ({ open, setOpen }) => {
             initial={{ opacity: 0, scale: 0.85, y: 30 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.85 }}
-            className="fixed z-50 left-[6%] md:left-[35%] top-[15%] w-[85%] max-w-md -translate-x-1/2 -translate-y-1/2 bg-white rounded-2xl shadow-2xl p-6 text-center"
+            className="fixed z-50 justify-center left-[7%] sm:left-[22%] lg:left-[35%] top-[15%] w-[85%] max-w-md -translate-x-1/2 -translate-y-1/2 bg-white rounded-2xl shadow-2xl p-6 text-center"
           >
             {!submitted ? (
               <>
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                <h2 className=" text-xl sm:text-2xl font-bold text-gray-900 mb-2">
                   Get Your Special Offer 🎁
                 </h2>
                 <p className="text-gray-600 mb-3">
