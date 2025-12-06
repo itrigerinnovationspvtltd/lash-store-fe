@@ -82,7 +82,7 @@ const LashLift = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="tel:+13364220626"
+              href="tel:+17038289213"
               className="btn-primary inline-block"
             >
               Book Your Lash Lift

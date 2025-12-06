@@ -95,11 +95,11 @@ const SpecialOffer = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="tel:+13364220626"
+                href="tel:+17038289213"
                 className="btn-primary inline-flex items-center justify-center gap-2"
               >
                 <Phone size={20} />
-                Call to Book - (336) 422-0626
+                Call to Book - (703) 828-9213
               </motion.a>
             </div>
           </motion.div>

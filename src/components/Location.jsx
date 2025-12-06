@@ -113,7 +113,7 @@ const Location = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="tel:+13364220626"
+                href="tel:+17038289213"
                 className="inline-block bg-white text-primary-600 px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all"
               >
                 Book Now - Call Us
