@@ -6,16 +6,16 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Youtube, href: '#', label: 'Youtube' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Facebook, href: 'https://www.facebook.com/dekalashhilltopatftbelvoir', label: 'Facebook' },
+    { icon: Instagram, href: 'https://www.instagram.com/dekalashhilltopatftbelvoir/#', label: 'Instagram' },
+    // { icon: Youtube, href: '#', label: 'Youtube' },
+    // { icon: Twitter, href: '#', label: 'Twitter' },
   ]
 
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid md:grid-cols-3 mx-auto gap-8 mb-8">
           {/* Brand */}
           <div>
             <motion.h3
@@ -23,7 +23,7 @@ const Footer = () => {
               className="text-3xl font-display font-bold mb-4"
             >
               <span className="bg-gradient-to-r from-primary-400 to-primary-300 bg-clip-text text-transparent">
-                Luxe Lash Studio
+                Deka Lash Hilltop
               </span>
             </motion.h3>
             <p className="text-gray-400 mb-4">
@@ -74,11 +74,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>1247 Creekshire Way, Suite 12</li>
-              <li>Hill Top, NC 27103</li>
+              <li>6458 Old Beulah St</li>
+              <li>Alexandria, VA 22315</li>
               <li>
-                <a href="tel:+13364220626" className="hover:text-primary-400 transition-colors">
-                  (336) 422-0626
+                <a href="tel:+17038289213" className="hover:text-primary-400 transition-colors">
+                  (703) 828-9213
                 </a>
               </li>
             </ul>
@@ -104,7 +104,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400 flex items-center justify-center gap-2 flex-wrap">
-            © {currentYear} Luxe Lash Studio. All rights reserved.
+            © {currentYear} Deka Lash Hilltop. All rights reserved.
             <span className="flex items-center gap-1">
               Made with <Heart className="text-primary-500" size={16} fill="currentColor" /> for beautiful lashes
             </span>

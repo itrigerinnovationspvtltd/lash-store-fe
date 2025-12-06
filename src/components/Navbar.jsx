@@ -38,7 +38,7 @@ const Navbar = ({setOpenPopup}) => {
             className="text-2xl md:text-3xl font-display font-bold"
           >
             <span className="bg-gradient-to-r from-primary-600 to-primary-400 bg-clip-text text-transparent">
-              Luxe Lash Studio
+              Deka Lash Hilltop
             </span>
           </motion.div>
 
@@ -53,9 +53,9 @@ const Navbar = ({setOpenPopup}) => {
             <button onClick={() => scrollToSection('location')} className="text-gray-700 hover:text-primary-600 transition-colors font-medium">
               Location
             </button>
-            <a href="tel:+13364220626" className="flex items-center gap-2 text-primary-600 hover:text-primary-700 font-semibold">
+            <a href="tel:+17038289213" className="flex items-center gap-2 text-primary-600 hover:text-primary-700 font-semibold">
               <Phone size={20} />
-              <span className="hidden lg:inline">(336) 422-0626</span>
+              <span className="hidden lg:inline">(703) 828-9213</span>
             </a>
             <motion.button
               whileHover={{ scale: 1.05 }}

@@ -60,12 +60,12 @@ const Location = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Location</h3>
-                  <p className="text-gray-600">Deka Lash Hill Top</p>
-                  <p className="text-gray-600">1247 Creekshire Way, Suite 12</p>
-                  <p className="text-gray-600">Hill Top, NC 27103</p>
+                  <p className="text-gray-600">Deka Lash Hilltop</p>
+                  <p className="text-gray-600">6458 Old Beulah St</p>
+                  <p className="text-gray-600">Alexandria, VA 22315</p>
                   <motion.a
                     whileHover={{ scale: 1.05 }}
-                    href="https://maps.google.com/?q=1247+Creekshire+Way+Suite+12+Hill-Top+NC+27103"
+                    href="https://www.google.com/maps/place/Deka+Lash/@38.742307,-77.163056,15z/data=!4m15!1m8!3m7!1s0x89b7ad1ba7b5fa05:0x10e5ad425e11e557!2s6458+Old+Beulah+St,+Alexandria,+VA+22315!3b1!8m2!3d38.7423068!4d-77.1630558!16s%2Fg%2F11pvcwvdr4!3m5!1s0x89b7ad86d677ba99:0xc09d631d5ba7795d!8m2!3d38.7423068!4d-77.1630558!16s%2Fg%2F11fkyyggbc?hl=en-US&entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block mt-3 text-primary-600 font-semibold hover:text-primary-700"
@@ -89,10 +89,10 @@ const Location = () => {
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
                   <motion.a
                     whileHover={{ scale: 1.05 }}
-                    href="tel:+13364220626"
+                    href="tel:+17038289213"
                     className="text-2xl font-semibold text-primary-600 hover:text-primary-700"
                   >
-                    (336) 422-0626
+                    (703) 828-9213
                   </motion.a>
                   <p className="text-gray-600 mt-2">Call us to book your appointment</p>
                 </div>
