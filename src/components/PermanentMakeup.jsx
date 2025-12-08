@@ -122,12 +122,12 @@ const PermanentMakeup = () => {
 
                   <ul className="space-y-3">
                     {[
-                      'Clients with sparse or uneven browsLooking for fuller, more defined brows without daily filling.',
-                      'Busy professionals & on-the-go lifestylesWake up ready with zero effort (coffee not included, but highly recommended).',
-                      'Active clients & gym-goersSmudge-proof, sweat-proof, cry-proof — life-proof',
-                      'Those with makeup allergies or sensitivitiesA great alternative to daily brow pencils, liners, and lipsticks.',
-                      'Anyone wanting long-lasting definitionBrows, lips, and liner that stay put for 1–3 years.',
-                      'Enhancing natural featuresSoft, realistic shading for a polished, everyday look.'
+                      'Clients with sparse or uneven brows looking for fuller, more defined results without daily filling.',
+                      'Busy professionals and on-the-go lifestyles who want to wake up ready with zero effort (coffee not included, but highly recommended).',
+                      'Active clients and gym-goers — smudge-proof, sweat-proof, and cry-proof — life-proof.',
+                      'Those with makeup allergies or sensitivities seeking a great alternative to daily brow pencils, liners, or lipsticks.',
+                      'Anyone wanting long-lasting definition — brows, lips, and liner that stay put for 1–3 years.',
+                      'Enhancing natural features with soft, realistic shading for a polished, everyday look.'
                     ].map((item, index) => (
                       <motion.li
                         key={index}

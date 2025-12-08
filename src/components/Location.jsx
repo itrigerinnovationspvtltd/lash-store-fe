@@ -1,18 +1,18 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { MapPin, Phone, Clock, Mail } from 'lucide-react'
-import GoogleMap from './GoogleMap'
+import React from "react";
+import { motion } from "framer-motion";
+import { MapPin, Phone, Clock, Mail } from "lucide-react";
+import GoogleMap from "./GoogleMap";
 
 const Location = () => {
   const hours = [
-    { day: 'Monday', time: 'Closed' },
-    { day: 'Tuesday', time: '09:00 AM - 5:00 PM' },
-    { day: 'Wednesday', time: '09:00 AM - 5:00 PM' },
-    { day: 'Thursday', time: '09:00 AM - 5:00 PM' },
-    { day: 'Friday', time: '09:00 AM - 8:00 PM' },
-    { day: 'Saturday', time: '09:00 AM - 6:00 PM' },
-    { day: 'Sunday', time: 'Closed' },
-  ]
+    { day: "Monday", time: "Closed" },
+    { day: "Tuesday", time: "09:00 AM - 5:00 PM" },
+    { day: "Wednesday", time: "09:00 AM - 5:00 PM" },
+    { day: "Thursday", time: "09:00 AM - 5:00 PM" },
+    { day: "Friday", time: "09:00 AM - 8:00 PM" },
+    { day: "Saturday", time: "09:00 AM - 6:00 PM" },
+    { day: "Sunday", time: "Closed" },
+  ];
 
   return (
     <section id="location" className="py-20 bg-gray-50 scroll-smooth">
@@ -23,9 +23,7 @@ const Location = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="section-title">
-            Visit Our Studio
-          </h2>
+          <h2 className="section-title">Visit Our Studio</h2>
           <p className="section-subtitle">
             Experience luxury lash services in our beautiful, welcoming studio
           </p>
@@ -59,7 +57,9 @@ const Location = () => {
                   <MapPin className="text-white" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Location</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">
+                    Location
+                  </h3>
                   <p className="text-gray-600">Deka Lash Hilltop</p>
                   <p className="text-gray-600">6458 Old Beulah St</p>
                   <p className="text-gray-600">Alexandria, VA 22315</p>
@@ -86,7 +86,9 @@ const Location = () => {
                   <Phone className="text-white" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">
+                    Phone
+                  </h3>
                   <motion.a
                     whileHover={{ scale: 1.05 }}
                     href="tel:+17038289213"
@@ -94,7 +96,35 @@ const Location = () => {
                   >
                     (703) 828-9213
                   </motion.a>
-                  <p className="text-gray-600 mt-2">Call us to book your appointment</p>
+                  <p className="text-gray-600 mt-2">
+                    Call us to book your appointment
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+            {/* email */}
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              className="bg-white rounded-2xl p-8 shadow-lg"
+            >
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-500 to-primary-600 flex items-center justify-center flex-shrink-0">
+                  <Mail className="text-white" size={24} />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">
+                    Email
+                  </h3>
+                  <motion.a
+                    whileHover={{ scale: 1.05 }}
+                    href="mailto:hilltopftbelvoir@dekalash.com"
+                    className="text-2xl font-semibold text-primary-600 hover:text-primary-700"
+                  >
+                    hilltopftbelvoir@dekalash.com
+                  </motion.a>
+                  <p className="text-gray-600 mt-2">
+                    Email us for inquiries or support
+                  </p>
                 </div>
               </div>
             </motion.div>
@@ -106,9 +136,12 @@ const Location = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-primary-600 to-primary-700 rounded-2xl p-8 shadow-lg text-white"
             >
-              <h3 className="text-2xl font-bold mb-3">Ready to Transform Your Look?</h3>
+              <h3 className="text-2xl font-bold mb-3">
+                Ready to Transform Your Look?
+              </h3>
               <p className="mb-6 text-white/90">
-                Book your appointment today and experience the confidence of beautiful lashes!
+                Book your appointment today and experience the confidence of
+                beautiful lashes!
               </p>
               <motion.a
                 whileHover={{ scale: 1.05 }}
@@ -132,7 +165,9 @@ const Location = () => {
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-500 to-primary-600 flex items-center justify-center">
                 <Clock className="text-white" size={24} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900">Business Hours</h3>
+              <h3 className="text-2xl font-bold text-gray-900">
+                Business Hours
+              </h3>
             </div>
 
             <div className="space-y-4">
@@ -145,8 +180,14 @@ const Location = () => {
                   transition={{ delay: index * 0.05 }}
                   className="flex justify-between items-center py-3 border-b border-gray-100 last:border-0"
                 >
-                  <span className="font-semibold text-gray-900">{item.day}</span>
-                  <span className={`${item.time === 'Closed' ? 'text-gray-400' : 'text-gray-600'}`}>
+                  <span className="font-semibold text-gray-900">
+                    {item.day}
+                  </span>
+                  <span
+                    className={`${
+                      item.time === "Closed" ? "text-gray-400" : "text-gray-600"
+                    }`}
+                  >
                     {item.time}
                   </span>
                 </motion.div>
@@ -155,16 +196,16 @@ const Location = () => {
 
             <div className="mt-8 p-6 bg-primary-50 rounded-xl">
               <p className="text-sm text-gray-700">
-                <strong>Note:</strong> Walk-ins are welcome based on availability, but we recommend 
-                booking in advance to secure your preferred time slot.
+                <strong>Note:</strong> Walk-ins are welcome based on
+                availability, but we recommend booking in advance to secure your
+                preferred time slot.
               </p>
             </div>
           </motion.div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Location
-
+export default Location;
